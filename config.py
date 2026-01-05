@@ -34,7 +34,7 @@ MONITORED_TOOLS = [
 
 # 監視設定
 CHECK_INTERVAL = 300  # 5分（秒単位）
-STALE_THRESHOLD = 3600  # 1時間実行されていなければ警告（秒単位）
+STALE_THRESHOLD = 21600  # 6時間実行されていなければ警告（秒単位）※実行間隔4時間の1.5倍
 NOTIFICATION_COOLDOWN = 3600  # 同じエラーの通知は1時間に1回まで（秒単位）
 
 # パス設定
